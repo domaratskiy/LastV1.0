@@ -1,6 +1,7 @@
-$('.skillProcent span').fadeIn(1000);
+$('.skillProcent span').fadeIn(1000).style.color = 'orange';
 
 let dateNow = document.querySelector('.date_now');
+
 let d = new Date();
 dateNow.innerHTML = d;
 
