@@ -8,7 +8,7 @@ dateNow.innerHTML = d;
 
 
 let a1h1 = document.querySelector('.i_am h1');
-let a1h2 = document.querySelector('.i_am h2');
+
 
 let a1Text = document.querySelector('.i_amText');
 let a1Project = document.querySelector('.myProjects_cont');
@@ -50,16 +50,7 @@ setInterval(() => {
 
 }, 2);
 	
-let aminTime2 = 0;
-let animh2 = setInterval(() => {
-	if(aminTime2 === 33){
-		clearInterval(animh2);
-	}
-	
-	a1h2.style.fontSize = `${aminTime2}px`; 
-	aminTime2++;
 
-},100);
 
 
 
