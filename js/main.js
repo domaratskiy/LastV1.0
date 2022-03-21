@@ -41,7 +41,7 @@ addStyleToLink(a1Aside_Soft, `scale(0)`);
 let aminTime1 = 0;
 
 setInterval(() => {
-	if(aminTime1 === 360){
+	if(aminTime1 === 180){
 		aminTime1 = 0;
 	}
 	aminTime1++;
